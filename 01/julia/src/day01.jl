@@ -7,26 +7,18 @@ function read()
     parse.(Int, lines)
 end
 
-function sum2020(coins)
-    for i in coins, j in coins
-        if i+j == 2020
-            return i*j
-        end
-    end
-end
-
-function sum2020_2(coins)
-    for i in coins, j in coins, k in coins
-        if i+j+k == 2020
-            return i*j*k
+function sum2020(coins, count)
+    for c in Iterators.product(repeat([coins], count)...)
+        if sum(c) == 2020
+            return prod(c)
         end
     end
 end
 
 function run()
     coins = read()
-    println("The answer to the first part is $(sum2020(coins))")
-    println("The answer to the second part is $(sum2020_2(coins))")
+    println("The answer to the first part is $(sum2020(coins, 2))")
+    println("The answer to the second part is $(sum2020(coins, 3))")
 end
 
 end
