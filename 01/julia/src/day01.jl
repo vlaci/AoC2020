@@ -1,4 +1,5 @@
 module day01
+using Combinatorics
 
 function read()
     lines = open("$(@__DIR__)/../../input") do f
@@ -8,7 +9,7 @@ function read()
 end
 
 function sum2020(coins, count)
-    for c in Iterators.product(repeat([coins], count)...)
+    for c in combinations(coins, count)
         if sum(c) == 2020
             return prod(c)
         end

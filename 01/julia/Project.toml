@@ -1,6 +1,9 @@
 name = "day01"
 uuid = "4767fe76-ed07-4375-aa0f-a6a43a00e4e3"
 
+[deps]
+Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
+
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
