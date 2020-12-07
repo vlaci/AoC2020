@@ -4,4 +4,5 @@ members = [
     "01/rust",
     "02/rust",
     "03/rust",
+    "06/rust",
 ]
