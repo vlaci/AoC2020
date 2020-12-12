@@ -1,0 +1,11 @@
+name = "day12"
+uuid = "2b7a643c-74f5-4144-953b-454e4d67859d"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
