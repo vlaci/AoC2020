@@ -78,3 +78,7 @@ These are my solutions in written in languages I am interested in and would like
 ## [18](18)
 
 * [Julia](18/julia/src/day18.jl)
+
+## [19](19)
+
+* [Julia](19/julia/src/day19.jl)
