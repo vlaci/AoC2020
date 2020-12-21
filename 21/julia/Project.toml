@@ -1,0 +1,8 @@
+name = "day21"
+uuid = "60c83422-5bec-4713-8e17-53e7b5a486fa"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
