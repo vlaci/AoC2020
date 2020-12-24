@@ -98,3 +98,7 @@ These are my solutions in written in languages I am interested in and would like
 ## [23](23)
 
 * [Julia](23/julia/src/day23.jl)
+
+## [24](24)
+
+* [Julia](24/julia/src/day24.jl)
