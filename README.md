@@ -102,3 +102,7 @@ These are my solutions in written in languages I am interested in and would like
 ## [24](24)
 
 * [Julia](24/julia/src/day24.jl)
+
+## [25](25)
+
+* [Julia](25/julia/src/day25.jl)
