@@ -1,4 +1,4 @@
-include("../src/day11.jl")
+using day11
 using Test
 
 @testset "Seating System" begin

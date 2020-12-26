@@ -1,4 +1,4 @@
-include("../src/day08.jl")
+using day08
 using Test
 
 

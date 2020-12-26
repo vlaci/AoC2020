@@ -1,7 +1,5 @@
-using Test
-include("../src/day02.jl")
-
 using day02: parseline, passwordpolicy, passwordpolicy2
+using Test
 
 # 1-3 a: abcde
 # 1-3 b: cdefg

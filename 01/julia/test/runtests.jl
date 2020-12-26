@@ -1,5 +1,5 @@
+using day01
 using Test
-include("../src/day01.jl")
 
 @testset "Sum" begin
     @test day01.sum2020([1721, 979, 366, 299, 675, 1456], 2) == 514579

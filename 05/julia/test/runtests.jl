@@ -1,7 +1,5 @@
-using Test
-include("../src/day05.jl")
-
 using day05: to_seatid
+using Test
 
 @testset "Binary Boarding" begin
     #=

@@ -1,6 +1,5 @@
-include("../src/day09.jl")
+using day09
 using Test
-using Combinatorics
 
 
 @testset "Encoding Error" begin

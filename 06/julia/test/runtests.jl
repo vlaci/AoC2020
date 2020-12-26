@@ -1,7 +1,5 @@
-using Test
-include("../src/day06.jl")
-
 using day06: count_anyyes, count_allyes
+using Test
 
 @testset "Custom Customs" begin
     forms = """

@@ -1,7 +1,5 @@
-using Test
-include("../src/day03.jl")
-
 using day03: parsetrees, counttrees
+using Test
 
 
 @testset "Tobogan trees" begin

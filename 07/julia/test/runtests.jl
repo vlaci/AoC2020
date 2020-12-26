@@ -1,8 +1,5 @@
-include("../src/day07.jl")
+using day07: parse_rules, count_containers, count_contents, get_content_mapping, MultiDict
 using Test
-using DataStructures
-using day07: parse_rules, count_containers, count_contents, get_content_mapping
-
 
 @testset "Handy Haversacks" begin
     rules = parse_rules(split(

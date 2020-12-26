@@ -1,7 +1,5 @@
-using Test
-include("../src/day04.jl")
-
 using day04: counthasrequiredfields, parsepassports, isvalid
+using Test
 
 @testset "Passport processing" begin
     passports = """
